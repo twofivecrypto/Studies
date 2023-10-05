@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansaba</title>
+
+
+    <!-- Material-UI CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mui/material@5.10.1/dist/material.min.css">
+
+    <!-- Tailwind CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- HTMX (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@1.6.0/dist/htmx.min.js"></script>
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="font-sans">
+    <header class="bg-blue-500 p-4 text-center">
+        <nav>
+            <ul class="list-none flex mt-4">
+                <li class="mr-6"><a href="#home" class="text-white">Home</a></li>
+                <li class="mr-6"><a href="#about" class="text-white">About</a></li>
+                <li class="mr-6"><a href="#projects" class="text-white">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto mt-8">
+        <section id="home" class="text-center p-4">
+            <img src="img/famarasanneh.png" class=" mx-auto">
+            <h2 class="text-3xl">Greetings, I'm Famara Sanneh</h2>
+            <p class="text-lg mt-4">I'm a dedicated technical founder with a strong presence in both the United States and Africa. My primary focus revolves around creating opportunities and establishing meaningful connections with like-minded individuals.</p>
+        </section>
+        
+        <section id="about" class="mt-8 p-4 text-center">
+            <h2 class="text-2xl mb-4">Professional Background</h2>
+            <p class="text-lg">Throughout my career, I've successfully cultivated diverse communities of creators, developers, artists, musicians, and blockchain enthusiasts. These communities have served as invaluable platforms for testing, validating, and launching innovative products. Collaboration with seasoned startup professionals is now a key focus, offering expertise, guidance, and network support while contributing extensive skills and resources.</p>
+            <p class="text-lg">The overarching goal is to make a lasting positive impact on the world through creative endeavors.</p>
+            <p class="text-lg">In leisure time, interests include coding, reading, and connecting with nature. Traditional music holds a special place, transcending language barriers. Cherishing moments with friends and family is a priority.</p>
+            <p class="text-lg">Evolution from a generalist to a specialist includes expertise in networking, communications, and meticulous long-term planning.</p>
+            <br>
+            <p class="text-md"><a href="https://twitter.com/mansafamara" class="text-blue-500">Feel free to reach out on Twitter</a> for further discussions and insights.</p>
+        </section>
+        
+        <section id="projects" class="mt-8">
+            <h2 class="text-2xl mb-4">Professional Projects</h2>
+            
+            <!-- Dynamic project content will be loaded here -->
+            <div class="flex flex-wrap -mx-4">
+                <!-- Project 1: Nonstandard Studios -->
+                <div class="w-full md:w-1/2 p-4">
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
+                        <img src="img/NONSTANDARD.png" alt="Universal Developer Global" class="mb-4 h-40 rounded-md mx-auto">
+                        <h3 class="text-2xl font-semibold mb-2">Nonstandard Studios</h3>
+                        <p class="text-gray-700 mb-4">AI/ML Development Studio based in Nigeria</p>
+                        <p class="text-gray-700">Nonstandard Studios is a pioneering AI/ML development studio based in Nigeria. It focuses on cutting-edge AI and ML projects.</p>
+                    </div>
+                </div>
+        
+                <!-- Project 2: Universal Developer Global -->
+                <div class="w-full md:w-1/2 p-4">
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
+                        <img src="img/7.png" alt="Universal Developer Global" class="mb-4 h-40 rounded-md mx-auto">
+                        <h3 class="text-2xl font-semibold mb-2">Universal Developer Global</h3>
+                        <p class="text-gray-700 mb-4">US-based Developer Studio and Network</p>
+                        <p class="text-gray-700">Universal Developer Global is a US-based developer studio and network that brings together developers, creators, and entrepreneurs to collaborate on innovative projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div class="contact-form-container mx-auto">
+        <form class="contact-form" action="contact.php" method="POST">
+            <h2>Contact Me</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    <footer class="bg-blue-500 p-4 text-white text-center">
+        &copy; 2023 All Rights Reserved by Society of Imagination
+    </footer>
+
+    <!-- Your Custom JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
