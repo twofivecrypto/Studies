@@ -1,0 +1,58 @@
+Financial Statements:
+
+    Balance Sheet Formulas:
+        Total Assets = Current Assets + Non-Current Assets
+        Total Liabilities = Current Liabilities + Non-Current Liabilities
+        Equity = Total Assets - Total Liabilities (or Equity = Contributed Capital + Retained Earnings)
+
+    Income Statement Formulas:
+        Revenue = Price x Quantity (or sum of revenues from each revenue stream)
+        Total Expenses = Cost of Goods Sold + Operating Expenses + Non-Operating Expenses
+        Net Income = Revenue - Total Expenses
+
+    Cash Flow Statement Formulas:
+        Net Cash Flow from Operating Activities = Cash Inflows - Cash Outflows from Operating Activities
+        Net Cash Flow from Investing Activities = Cash Inflows - Cash Outflows from Investing Activities
+        Net Cash Flow from Financing Activities = Cash Inflows - Cash Outflows from Financing Activities
+        Net Increase (Decrease) in Cash = Net Cash Flow from Operating Activities + Net Cash Flow from Investing Activities + Net Cash Flow from Financing Activities
+
+Ratios and Financial Analysis:
+
+    Liquidity Ratios:
+        Current Ratio = Current Assets / Current Liabilities
+        Quick Ratio = (Current Assets - Inventory) / Current Liabilities
+
+    Profitability Ratios:
+        Gross Profit Margin = (Gross Profit / Revenue) x 100
+        Net Profit Margin = (Net Income / Revenue) x 100
+        Return on Equity (ROE) = (Net Income / Shareholders' Equity) x 100
+
+    Leverage Ratios:
+        Debt-to-Equity Ratio = Total Debt / Total Equity
+        Interest Coverage Ratio = Earnings Before Interest and Taxes (EBIT) / Interest Expense
+
+Budgeting and Forecasting:
+
+    Budgeting Formulas:
+        Total Budgeted Revenue = Budgeted Price x Budgeted Quantity (or sum of revenue budgets)
+        Total Budgeted Expenses = Sum of all budgeted expense categories
+        Budgeted Net Income = Total Budgeted Revenue - Total Budgeted Expenses
+
+    Forecasting Techniques:
+        Simple Moving Average = (Sum of Data Points in Periods) / (Number of Periods)
+        Weighted Moving Average = (Weighted Sum of Data Points) / (Total Weight)
+        Exponential Smoothing = (Previous Period's Forecast x Smoothing Factor) + (Actual Value x (1 - Smoothing Factor))
+
+Other Important Formulas:
+
+    Depreciation:
+        Straight-Line Depreciation = (Initial Cost - Salvage Value) / Useful Life
+        Double-Declining Balance Depreciation = (2 / Useful Life) x Book Value at Beginning of Year
+
+    Interest and Time Value of Money:
+
+    Simple Interest = Principal x Interest Rate x Time
+    Future Value = Present Value x (1 + Interest Rate)^n
+    Present Value = Future Value / (1 + Interest Rate)^n
+
+These formulas cover a wide range of financial calculations and analyses commonly used in bookkeeping and accounting. Remember to adapt these formulas based on the specific requirements and accounting standards of your organization or industry.
